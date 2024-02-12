@@ -1,3 +1,4 @@
+/* -------------BASIC STYLES---------------- */
 body {
   font-family: sans-serif;
   line-height: 1.5;
@@ -17,9 +18,17 @@ ul,
 ol {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+/* -------------STYLES FOR HOMEWORK ----------*/
+
+:root {
+  max-width: 1200px;
+  margin: auto;
 }
